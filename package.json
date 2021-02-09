@@ -1,0 +1,29 @@
+{
+  "name": "beermoney-api",
+  "version": "1.0.0",
+  "description": "api beermoney",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franklinzerocr/beermoney-api.git"
+  },
+  "keywords": [
+    "beermoney",
+    "api"
+  ],
+  "author": "franklinzerocr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franklinzerocr/beermoney-api/issues"
+  },
+  "homepage": "https://github.com/franklinzerocr/beermoney-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "promise-mysql": "^5.0.2"
+  }
+}

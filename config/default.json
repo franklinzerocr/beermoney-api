@@ -1,0 +1,8 @@
+{
+  "DB": {
+    "Host": "localhost",
+    "User": "root",
+    "Password": "",
+    "DatabaseName": "beermoney"
+  }
+}
