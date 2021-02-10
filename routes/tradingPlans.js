@@ -7,6 +7,8 @@ const tradingPlansRoutes = app => {
     (async function () {
       let dbConnection = await db.connection(config.DB);
       let tradingPlans = await db.getLastMonthTradingPlans(dbConnection);
+      // tradingPlans = JSON.stringify(Object.assign({}, tradingPlans));
+      // tradingPlans = JSON.parse(tradingPlans);
 
       res.send(tradingPlans);
     })();
