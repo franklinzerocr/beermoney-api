@@ -1,7 +1,10 @@
 const config = require('config');
 const db = require('../db/db.js');
+const cors = require('cors');
 
 const tradingPlansRoutes = app => {
+  app.use(cors());
+
   // READ
   app.get('/tradingPlans', (req, res) => {
     (async function () {
