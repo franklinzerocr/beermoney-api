@@ -10,7 +10,7 @@ const app = express();
 const fs = require('fs');
 
 // configure our express instance with some body-parser settings
-// including handling JSON data
+// including handling JSON dat
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
